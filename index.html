@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑沃咖啡專櫃裝修工程（昕境廣場）進場前點交清單與注意事項</title>
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --line:#333;
+    --rule:#c9c2b4;
+    --paper:#fffdf8;
+    --panel:#f4f1e8;
+    --accent:#0b4f6c;
+    --high:#b3261e; --high-bg:#fdecea; --high-bd:#e8b4af;
+    --mid:#9a6700; --mid-bg:#fff6e0; --mid-bd:#e8cf8a;
+    --low:#1f6f43; --low-bg:#eaf6ee; --low-bd:#b7ddc4;
+  }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:#e9e5d8; }
+  body{
+    font-family:"PMingLiU","蘋方-繁","PingFang TC","Songti TC","Noto Serif TC","MingLiU",serif;
+    color:var(--ink);
+    line-height:1.6;
+    font-size:15px;
+  }
+  h1,h2,h3,h4,.sans{
+    font-family:"Microsoft JhengHei","PingFang TC","Heiti TC","Noto Sans TC",sans-serif;
+  }
+  .page{
+    max-width:900px;
+    margin:0 auto;
+    background:var(--paper);
+    padding:28px 34px 60px;
+    box-shadow:0 0 18px rgba(0,0,0,.12);
+  }
+  /* ---------- 標題區 ---------- */
+  .doc-head{ border-bottom:3px double var(--ink); padding-bottom:14px; margin-bottom:18px; }
+  .doc-head .tag{
+    display:inline-block; font-family:"Microsoft JhengHei",sans-serif; font-weight:700;
+    font-size:12px; letter-spacing:2px; color:#fff; background:var(--ink);
+    padding:3px 10px; border-radius:2px; margin-bottom:10px;
+  }
+  .doc-head h1{ font-size:23px; margin:6px 0 8px; line-height:1.4; }
+  .doc-head .meta{ font-size:13px; color:#555; }
+  .doc-head .meta span{ margin-right:18px; }
+  .purpose{
+    margin-top:12px; font-size:13.5px; color:#333; background:var(--panel);
+    border-left:4px solid var(--accent); padding:10px 14px; border-radius:0 3px 3px 0;
+  }
+  .cite-legend{
+    margin-top:10px; font-size:12.5px; color:#444; background:#fbfaf5;
+    border:1px dashed var(--rule); padding:8px 12px; border-radius:3px;
+  }
+  .cite-legend b{ color:var(--ink); }
+  /* ---------- 導覽（螢幕用，列印隱藏） ---------- */
+  .quicknav{
+    display:flex; flex-wrap:wrap; gap:6px; margin:14px 0 22px; font-family:"Microsoft JhengHei",sans-serif;
+    font-size:12px;
+  }
+  .quicknav a{
+    background:var(--panel); border:1px solid var(--rule); border-radius:14px;
+    padding:4px 11px; color:var(--accent); text-decoration:none;
+  }
+  /* ---------- 0.5 醒目區塊 ---------- */
+  .keybox{
+    border:3px solid var(--high); background:var(--high-bg); border-radius:6px;
+    padding:16px 18px 12px; margin:0 0 26px;
+  }
+  .keybox h2{
+    margin:0 0 4px; font-size:18px; color:var(--high);
+  }
+  .keybox .sub{ font-size:13px; color:#7a2b25; margin-bottom:12px; }
+  .kv-item{
+    background:#fff; border:1px solid var(--high-bd); border-radius:5px;
+    padding:10px 12px; margin-bottom:10px;
+  }
+  .kv-item.main{ border:2px solid var(--high); background:#fff3f1; }
+  .kv-item .num{
+    display:inline-block; width:22px; height:22px; line-height:22px; text-align:center;
+    background:var(--high); color:#fff; border-radius:50%; font-weight:700; font-size:12.5px;
+    margin-right:8px; font-family:"Microsoft JhengHei",sans-serif;
+  }
+  .kv-item .ttl{ font-weight:700; font-size:14.5px; }
+  .kv-item .badge{
+    font-family:"Microsoft JhengHei",sans-serif; font-size:11px; font-weight:700;
+    background:var(--high); color:#fff; padding:1px 7px; border-radius:10px; margin-left:6px;
+  }
+  .kv-item p{ margin:6px 0 0; font-size:13px; }
+  .kv-item .who{ font-size:12.5px; color:#555; margin-top:5px; }
+  .kv-item .who b{ color:var(--ink); }
+
+  /* ---------- 一般段落 ---------- */
+  section{ margin-bottom:34px; }
+  h2.sec-title{
+    font-size:19px; color:#fff; background:var(--ink); padding:7px 14px;
+    border-radius:3px; margin:0 0 14px; break-before:page;
+  }
+  section:first-of-type h2.sec-title, .keybox{ break-before:auto; }
+  h3.sub-title{
+    font-size:15.5px; color:var(--accent); border-bottom:2px solid var(--accent);
+    padding-bottom:4px; margin:22px 0 10px;
+  }
+  h3.sub-title .n{
+    display:inline-block; background:var(--accent); color:#fff; font-size:11px;
+    padding:1px 7px; border-radius:3px; margin-right:7px; font-family:"Microsoft JhengHei",sans-serif;
+  }
+  p.note{ font-size:13px; color:#444; margin:6px 0 10px; }
+  .cite{ color:#6b6355; font-size:12.5px; }
+
+  /* ---------- 規範／實務 標籤 ---------- */
+  .tag-reg, .tag-prac{
+    display:inline-block; font-family:"Microsoft JhengHei",sans-serif; font-size:11px; font-weight:700;
+    padding:1px 6px; border-radius:3px; margin-right:5px; white-space:nowrap;
+  }
+  .tag-reg{ background:#e4edf3; color:var(--accent); border:1px solid #b9d2e0; }
+  .tag-prac{ background:#f0ecdf; color:#7a5b17; border:1px solid #ddd0a3; }
+
+  .practice{
+    background:#f4f8fb; border-left:4px solid var(--accent); border-radius:0 4px 4px 0;
+    padding:9px 13px; margin:10px 0; font-size:13px; color:#20415a;
+  }
+  .practice b{ color:var(--accent); }
+  .gap{
+    background:#fbf3e8; border-left:4px solid var(--mid); border-radius:0 4px 4px 0;
+    padding:9px 13px; margin:10px 0; font-size:13px; color:#5c3f05;
+  }
+  .lawref{
+    background:#eef6f0; border-left:4px solid var(--low); border-radius:0 4px 4px 0;
+    padding:8px 13px; margin:10px 0; font-size:12.8px; color:#1c4a30;
+  }
+  .lawref b{ color:var(--low); }
+
+  /* ---------- 表格 ---------- */
+  .tbl-wrap{ overflow-x:auto; margin:10px 0 6px; }
+  table{ width:100%; border-collapse:collapse; font-size:12.6px; background:#fff; }
+  table.wide{ min-width:640px; }
+  th,td{ border:1px solid #bdb6a4; padding:6px 8px; text-align:left; vertical-align:top; }
+  th{
+    background:var(--ink); color:#fff; font-family:"Microsoft JhengHei",sans-serif; font-weight:700;
+    font-size:12px;
+  }
+  tbody tr:nth-child(even){ background:#faf8f1; }
+  td.center{ text-align:center; }
+  col.cb-col{ width:34px; }
+
+  /* checkbox：CSS 畫框，列印可見 */
+  .cb{
+    display:inline-block; width:14px; height:14px; border:1.7px solid var(--ink);
+    border-radius:2px; background:#fff; vertical-align:-2px;
+  }
+
+  /* ---------- 風險等級徽章 ---------- */
+  .risk{
+    display:inline-block; font-family:"Microsoft JhengHei",sans-serif; font-weight:700; font-size:11.5px;
+    padding:2px 8px; border-radius:10px; white-space:nowrap; border:1px solid;
+  }
+  .risk.h{ background:var(--high-bg); color:var(--high); border-color:var(--high-bd); }
+  .risk.mh{ background:#fdf1e3; color:#a4501c; border-color:#eec39a; }
+  .risk.m{ background:var(--mid-bg); color:var(--mid); border-color:var(--mid-bd); }
+  .risk.lm{ background:#f2f6e3; color:#5a6e1c; border-color:#cddb9d; }
+  .risk.l{ background:var(--low-bg); color:var(--low); border-color:var(--low-bd); }
+
+  tr.risk-h td{ background:#fffaf9; }
+  tr.risk-h td:first-child{ border-left:4px solid var(--high); }
+
+  /* ---------- 待確認清單：轉泰咪 ---------- */
+  .toTamy{
+    display:inline-block; font-family:"Microsoft JhengHei",sans-serif; font-size:10.5px; font-weight:700;
+    background:#eee6f7; color:#5b2f9c; border:1px solid #d3bdec; padding:1px 6px; border-radius:9px;
+  }
+
+  /* ---------- 附錄 已查證/需查證 ---------- */
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .src-box{ border-radius:5px; padding:12px 14px; }
+  .src-box.ok{ background:var(--low-bg); border:1.5px solid var(--low-bd); }
+  .src-box.chk{ background:var(--mid-bg); border:1.5px solid var(--mid-bd); }
+  .src-box h4{ margin:0 0 8px; font-size:14px; }
+  .src-box.ok h4{ color:var(--low); }
+  .src-box.chk h4{ color:var(--mid); }
+  .src-box ul{ margin:0; padding-left:18px; font-size:12.5px; }
+  .src-box li{ margin-bottom:6px; }
+  .src-box .src{ color:#666; font-size:11.5px; }
+
+  footer{
+    margin-top:30px; padding-top:14px; border-top:1px solid var(--rule);
+    font-size:11.5px; color:#777;
+  }
+
+  /* ---------- 列印設定 ---------- */
+  @media print{
+    html,body{ background:#fff; }
+    .page{ box-shadow:none; max-width:none; padding:0 6mm; }
+    .quicknav{ display:none; }
+    a{ color:inherit; text-decoration:none; }
+    tr, .kv-item, .practice, .gap, .lawref, .src-box{ break-inside:avoid; }
+    h3.sub-title{ break-after:avoid; }
+  }
+  @page{ size:A4; margin:14mm 11mm; }
+
+  /* ---------- 手機 ---------- */
+  @media (max-width:640px){
+    .page{ padding:16px 12px 40px; }
+    body{ font-size:14px; }
+    .doc-head h1{ font-size:19px; }
+    table{ font-size:11.5px; }
+    .grid2{ grid-template-columns:1fr; }
+    h2.sec-title{ font-size:16px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ 0. 文件頭 ============ -->
+  <div class="doc-head">
+    <span class="tag">內部作業文件・工程統籌用</span>
+    <h1>黑沃咖啡專櫃裝修工程（昕境廣場）進場前點交清單與注意事項</h1>
+    <div class="meta">
+      <span>文件日期：2026-07-08</span>
+      <span>整合：賈維斯（如菓工程統籌）</span>
+      <span>資料來源：艾莉兒（工法建材分析）＋蘿拉（法規風險分析）</span>
+    </div>
+    <div class="purpose">
+      <b>用途說明：</b>本文件整合艾莉兒之工法／規範拆解與蘿拉之法規風險分析，供工程統籌於<b>進場點交當天現場逐項核對</b>，並作為施工期間查閱管理紅線與風險的底稿。全文所有「規範」條號頁碼，均已與甲方昕境廣場「專櫃內裝及設備設計施工管理規範」全文原件逐條核對，<b>核對結果：關鍵尺寸／金額／條號皆與原文一致，未發現素材與原文衝突</b>（詳見文末核對紀錄）。使用順序建議：0.5（進場當天第一優先問死）→ 第一節（行政準備）→ 第二節（現場逐項點交）→ 第三節（施工期間紅線）→ 第四節（風險總覽）→ 第五節（待老闆／甲方／夥伴拍板）→ 第六節（法源查證狀態）。
+    </div>
+    <div class="cite-legend">
+      <b>引用格式說明：</b>【規範 X-X-(X)，頁XX】＝昕境廣場「專櫃內裝及設備設計施工管理規範」（<b>甲方私規範，非政府法規</b>）條號與頁碼，頁碼指規範文件自身頁碼（20–30）；條號格式如「三-二-6-(1)」＝第三條－第二項－第6款－第(1)目。法規條號（如「消防法§7」）為經蘿拉查證之中央法規，兩者性質不同、後果各自獨立且可能同時觸發（甲方扣保證金／政府罰鍰）。<b>【規範】</b>標籤＝合約白紙黑字義務；<b>【實務】</b>標籤＝艾莉兒現場經驗補充，非甲方義務但漏了會踩坑。
+    </div>
+    <nav class="quicknav">
+      <a href="#s05">0.5 三大未定變數</a>
+      <a href="#s1">一、行政準備</a>
+      <a href="#s2">二、現場點交</a>
+      <a href="#s3">三、管理紅線</a>
+      <a href="#s4">四、風險總表</a>
+      <a href="#s5">五、待拍板清單</a>
+      <a href="#s6">六、法源附錄</a>
+    </nav>
+  </div>
+
+  <!-- ============ 0.5 三大未定變數 ============ -->
+  <div class="keybox" id="s05">
+    <h2>進場點交當天必須問死甲方——三大未定變數＋一關鍵拍板項</h2>
+    <div class="sub">規範全文沒有指名黑沃屬哪一類櫃／哪一種定位，以下三項未確認前，第二節點交清單多處歸屬會是空的；未書面確認一律不得預設。</div>
+
+    <div class="kv-item">
+      <span class="num">①</span><span class="ttl">櫃型：統裝／半統裝／自設自裝？</span>
+      <p>決定天花板（燈具）、地坪、壁面、道具四項的甲乙方施作歸屬（【規範 二-三，頁20】）。咖啡品牌櫃多為自設自裝櫃，但<b>須向甲方書面確認</b>，不可預設。</p>
+      <p class="who"><b>找誰：</b>甲方工程部，須書面／施工界面表為憑，不可只憑口頭。</p>
+    </div>
+
+    <div class="kv-item">
+      <span class="num">②</span><span class="ttl">是否認定為「餐飲櫃／飲食櫃」？</span>
+      <p>決定保證金金額（<b>餐飲 $100,000／櫃 vs 零售 $50,000／櫃</b>，【規範 五-1-(3)，頁28】）、能否設給排水瓦斯、是否需 ATS。咖啡吧大概率算飲食櫃，但<b>以甲方施工界面表為準</b>。</p>
+      <p class="who"><b>找誰：</b>甲方施工界面表。</p>
+    </div>
+
+    <div class="kv-item main">
+      <span class="num">③</span><span class="ttl">咖啡吧是否構成規範定義之「廚房」？吧檯有無明火／瓦斯／現場烘豆？</span><span class="badge">最關鍵</span>
+      <p>一次決定<b>一整串連鎖義務</b>是否觸發：1 小時防火時效牆區劃（【規範 三-二-12-(2)，頁26】；建築技術規則施工編§86-4）、油脂截油器（【規範 三-二-5-(3)，頁23】）、廚房防水插座＋漏電斷路器（【規範 三-二-8-(7)，頁25】）、廚房天花耐燃一級（【規範 三-二-6-(1)，頁23-24】）、瓦斯雙遮斷閥（【規範 三-二-11，頁26】，僅 10 坪以上廚房適用）、簡易滅火設備（【規範 三-二-12-(2)，頁26】）、排油煙管制（含現場烘豆則另涉空污法固定污染源管制，條號需查證）。若全電力（無明火、無瓦斯、無現場烘豆）則上述多數義務不觸發，風險降為中低；若有明火／瓦斯／烘豆則全部觸發，風險等級為高。</p>
+      <p class="who"><b>找誰：</b>先向黑沃取得吧檯設備清單（是否瓦斯咖啡機／瓦斯烤爐／現場烘豆機），再向甲方確認「廚房」認定。<b>兩件事都要在點交當天問死，別賭。</b></p>
+    </div>
+  </div>
+
+  <!-- ============ 一、進場前行政準備 ============ -->
+  <section id="s1">
+    <h2 class="sec-title">一、進場前行政準備 checklist</h2>
+    <p class="note">以下七項為「進場施工前」須備齊／確認的行政程序，缺一即無法合法進場或日後扣保證金／停工。</p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:18%"><col style="width:47%"><col style="width:30%"></colgroup>
+      <thead><tr><th></th><th>項目</th><th>內容／規範或法源依據</th><th>備註／後果</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>室內裝修審查許可</td>
+          <td>昕境廣場屬供公眾使用建築物（建築法§5），本櫃位涉及天花板裝修／內部牆面裝修／固定隔屏／分間牆變更，依<b>建築法§77-2</b>應申請室內裝修審查許可，審核核可後方可進場施工（【規範 四-1-(4)，頁27】）。</td>
+          <td>未申請即施工：<b>罰 6～30 萬元</b>＋限期改善／補辦，連續處罰，必要時強制拆除（建築法§95-1）。先問清楚本櫃位是納入商場整體許可傘下，或須單獨送審。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>如菓登記證具名，<b>絕不用開箱子名義</b></td>
+          <td>送審圖之室內裝修業欄、施工切結、竣工查驗，一律使用「如菓」名義與如菓專業技術人員登記證（E801060 室內裝修業）。</td>
+          <td>開箱子僅有 E801010 室內裝潢業，<b>無 E801060 室內裝修業登記證</b>，不得作為本案室內裝修業之承攬／具名／送審主體；誤用構成無證執業（建築法§77-2③、§95-1②：罰鍰並勒令停業）＋借牌風險（室裝辦法§36：廢止登記許可並註銷登記證）。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>消防設備師檢討送審</td>
+          <td>只要動到撒水頭、排煙閘門、偵煙器位置，須先由消防專業人員檢討並於送審圖標示清楚，圖審許可後方可施作，費用乙方負擔（【規範 三-二-3-(2)，頁22-23】）。</td>
+          <td>用語校正：規範原文寫「消防技師」，法定執行主體為<b>消防設備師</b>（消防法§7）；技師法登記之消防工程科技師於執業範圍內亦得辦理。未經消防設備師擅自設計移設，消防法§38 罰 3～15 萬元按次處罰。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>保證金票據</td>
+          <td>支票抬頭「<b>昕境廣場股份有限公司</b>」，禁止背書轉讓，僅作保證用；金額依櫃型定位（餐飲櫃 $100,000／櫃；零售櫃 $50,000／櫃）（【規範 五-1-(3)，頁28】）。</td>
+          <td>金額須先確認 §0.5②飲食櫃定位。退還依據＝審核確認之圖面內容＋機空消水電核准表（【規範 五-1-(4)，頁28】）。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>保險</td>
+          <td>進場施工前須繳交<b>施工切結書</b>與<b>各櫃自行承攬勞安責任與工地保險切結書</b>（【規範 五-1-(2)，頁28】）。</td>
+          <td>與保證票同屬進場前必備文件，兩者皆備齊、雙方完成點交單確認後，方可進場施工。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>施工證／人員名冊</td>
+          <td>裝修期間工地須保持<b>至少一人現場監造負責</b>，隨時備查協調（【規範 六-3-(1)，頁29】）；施工人員名冊先造好給甲方，通常押證件換證進場。</td>
+          <td>不符規定經指正未改善者，甲方<b>暫不予供電</b>（【規範 六-3-(2)，頁29】），全櫃停工，損失乙方自負。</td>
+        </tr>
+        <tr>
+          <td class="center"><span class="cb"></span></td>
+          <td>送審時程問死</td>
+          <td>規範僅寫「審核核可後方可進場施工」，<b>沒有給明確送審天數</b>——這是最容易卡工期的黑洞。</td>
+          <td>務必當面問甲方工程部：圖審幾個工作天一輪？退補幾次？機電／消防要不要另外跑消防設備師簽證送審（額外 1～2 週）？把這條當開工前置時程排進整體計畫，別壓在進場日才送審。</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- ============ 二、現場點交 checklist ============ -->
+  <section id="s2">
+    <h2 class="sec-title">二、現場點交 checklist（10 大類逐項）</h2>
+    <p class="note">打勾欄：<span class="cb"></span> 打勾＝已點交確認正常；未打勾或欄位空白＝未點或異常。<b>每一項異常都要當場拍照＋文字記錄，並簽在點交單上</b>——點交單一經雙方簽認，即日起施工責任法定生效（【規範 五-2，頁28】），之後才發現的既有損傷，舉證責任在乙方。</p>
+
+    <h3 class="sub-title"><span class="n">2-1</span>界面歸屬與櫃型確認（點交第 0 項，最優先）</h3>
+    <p class="note">三類櫃的天花／地坪／壁面／道具歸屬差異一覽（【規範 二-三，頁20】）：</p>
+    <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>櫃型</th><th>天花板（燈具）</th><th>地坪</th><th>壁面</th><th>道具</th><th>誰審圖</th></tr></thead>
+      <tbody>
+        <tr><td>統裝櫃（界面含中島）</td><td>甲方統一設計裝修</td><td>甲方</td><td>甲方</td><td>甲方</td><td>—</td></tr>
+        <tr><td>半統裝櫃（局部界面）</td><td>甲方統一設計裝修</td><td>甲方</td><td><b>乙方自理</b></td><td><b>乙方自理（活動道具）</b></td><td>甲方審整體圖</td></tr>
+        <tr><td>自設自裝櫃／獨立櫃</td><td><b>乙方自設自裝</b></td><td><b>乙方自由選材</b></td><td><b>乙方</b></td><td><b>乙方</b></td><td>甲方審圖＋建議修正，乙方全接受甲方管理</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:30%"><col></colgroup>
+      <thead><tr><th></th><th>點交項目</th><th>說明／異常時找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>確認黑沃櫃型</td><td>要甲方書面／界面表，決定上表整列歸屬（見 §0.5①）。異常找：甲方工程部。</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>確認是否「餐飲／飲食櫃」定位</td><td>影響保證金、給排水權限、ATS（見 §0.5②）。異常找：甲方工程部。</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>領取甲方各櫃施工界面表</td><td>規範多處指向此表：用電量、機空消水電分項（【規範 六-5-(2)、六-5-(4)，頁29-30】）。異常找：甲方工程部。</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>領取甲方機電圖／空調圖／消防排煙圖／位置圖</td><td>送審與放樣的底圖（【規範 三-二-3-(3)、四-1-(2)，頁22、27】）。異常找：甲方工程部。</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-2</span>消防／安全設施點交（第一優先｜直接關乎保證金與罰責）</h3>
+    <div class="practice"><b>【實務】</b>消防設施點交排第一個做，因為這是保證金退還的核准表項目（機空消水電核准表，【規範 五-1-(4)，頁28】），也是甲方最會抓、最會扣錢的地方。每一支灑水頭、每一個偵煙器位置都要在放樣圖上標點。</div>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:16%"><col style="width:32%"><col style="width:24%"><col style="width:18%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範淨空要求</th><th>拍照存證要點</th><th>異常時找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>灑水頭</td><td>迴水板下方 <b>45cm</b>＋水平 <b>30cm</b> 內淨空；頭須外露天花 5cm 上下；不得噴漆／覆蓋（【規範 三-一-6，頁21】）</td><td>每支拍位置＋高程，標於天花放樣圖</td><td>甲方工程部＋消防設備師</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>消防栓／消防箱</td><td>前方 <b>1500mm</b> 見方內不得設任何道具，須留 <b>1200mm</b> 通道；紅框紅字紅燈須明顯保留（【規範 三-一-2，頁20-21】）</td><td>拍消防栓位置與周邊淨空</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>偵煙器／火警感知器</td><td>與受信總機連動；施工暫拆務必完整裝回（【規範 三-一-7，頁21】）</td><td>拍原始位置＋數量（拆前存證）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>安全防火門</td><td>門前與門同寬為法定淨空；不可封死／上鎖／拆推把；上方指示燈不可動（【規範 三-一-1，頁20】）</td><td>拍門、推把、指示燈現況</td><td>甲方＋蘿拉（法規）</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>防火鐵捲門</td><td>下方不得設道具；壁櫃須切斷留 20cm 縫；中心線左右各留 100mm（【規範 三-一-4，頁21】）</td><td>拍鐵捲門落下範圍地面標線</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>緊急緩降機／避難梯</td><td>周圍預留 1000×1000mm 淨空＋800mm 以上通道（【規範 三-一-5，頁21】）</td><td>拍位置與逃生動線</td><td>甲方＋蘿拉</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>緊急入口（倒三角標誌）</td><td>不可封閉；儲藏室角鋼架不可擋（【規範 三-一-3，頁21】）</td><td>拍窗上倒三角標誌位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>廣播喇叭／緊急照明／出口指示燈</td><td>位置須標入天花送審圖（【規範 四-2-(4) 天花圖，頁27】）</td><td>拍位置＋數量</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>消防電盤箱／維修門／維修口</td><td>不得封閉移位；可做易開啟假門；消防電盤箱不可覆蓋（【規範 三-一-9，頁21】）</td><td>拍所有維修口位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>防煙垂壁</td><td>新作天花下仍需留至少 <b>50cm</b> 高防煙垂壁；排煙幹管勿異動；若變更須消防設備師檢討面積／排煙管／閘門／材料並送審（【規範 三-二-3-(2)，頁22-23】）</td><td>拍垂壁位置＋量下垂高度</td><td>消防設備師＋甲方</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>排煙閘門</td><td>天花內公設，增設／移位須消防設備師檢討＋送審核准，費用乙方負擔（【規範 三-二-3-(2)，頁23】）</td><td>拍位置</td><td>消防設備師＋甲方</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="practice"><b>【實務】</b>偵煙器拆前一定要拍照＋數量清點，裝回時對照。曾發生師傅施工把偵煙器拆下沒裝回、或裝錯位，消防會勘直接退，補做又要另約消防設備師，一次跑掉幾天工期。</div>
+
+    <h3 class="sub-title"><span class="n">2-3</span>天花板現況點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:20%"><col style="width:33%"><col style="width:20%"><col style="width:17%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>公設維修口／檢修口</td><td>位置＋開口尺寸，須留應符尺寸開口（【規範 三-二-3-(2)，頁22-23】）</td><td>逐口拍＋標尺寸於天花圖</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>既有天花高度</td><td>各點淨高（開放型專櫃區櫃與櫃天花須協調一致，週邊留 20cm 以上淨空）（【規範 三-二-3-(3)，頁23】）</td><td>拍＋記高程</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>天花上層設備現況</td><td>是否需依甲方指定色號噴漆（違者甲方統一處理、費用乙方負擔）（【規範 三-二-3-(4)，頁23】）</td><td>拍現況</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>公共造型攬板／公設設備</td><td>天花裝修物須自行懸吊，嚴禁架設施壓於公共造型攬板或設備（【規範 三-二-3-(3)，頁23】）</td><td>拍可懸吊點與禁區</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>樓板表面塗裝</td><td>既有塗裝狀況，汙損須同原材料色系復原（【規範 三-二-3-(5)，頁23】）</td><td>拍既有損傷／塗裝</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-4</span>地坪現況點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:20%"><col style="width:33%"><col style="width:20%"><col style="width:17%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>既有高程</td><td>與走道地板高差（自設自裝櫃完成面須與走道齊平）（【規範 三-二-5-(1)，頁23】）</td><td>拍＋水平儀量高差</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>既有材質</td><td>交付材質（1F 挑高開放區部分櫃地坪屬半統裝，材質由甲方決定）（【規範 三-二-5，頁23】）</td><td>拍材質</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>既有損傷</td><td>裂縫／空鼓／破損（點交後責任移轉，先拍先贏）</td><td>逐處拍＋量尺寸</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>樓板開口（若櫃內有樓梯通上下層）</td><td>開口面積與位置不可變更，甲方提供樓梯含欄杆一座（【規範 三-二-5-(5)，頁23】）</td><td>拍開口與樓梯</td><td>甲方＋結構技師</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>地板插座／出線盒</td><td>中島出線處須埋接線盒(BOX)位置（【規範 三-二-5-(6)，頁24】）</td><td>拍既有出線點</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="practice"><b>【實務】</b>地坪既有損傷是點交最容易漏、最容易被賴的一項。進場前把整個地坪走一遍，空鼓用手敲、裂縫貼比例尺拍，簽進點交單。不然驗收時甲方一句「你們做壞的」，賠償從保證金扣。</div>
+
+    <h3 class="sub-title"><span class="n">2-5</span>壁面／柱／隔間點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:22%"><col style="width:33%"><col style="width:20%"><col style="width:15%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範要求</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>中島區公共造型柱／隔間</td><td>遵各樓層設計，切勿破壞或外包其他材質（【規範 三-二-4-(1)，頁23】）</td><td>拍造型柱現況</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>防火時效牆（鄰外牆／廚房區）</td><td>點交時屬 <b>1hr 防火區劃牆</b>，勿打鑿破壞；外牆不可穿透鑽孔（【規範 三-二-12-(2)，頁26】）</td><td>拍牆體位置、標於平面圖</td><td>甲方＋蘿拉</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>公裝招牌帶／包柱</td><td>位置＋可施作範圍（1F 字高 max 60cm、3F max 30cm）（【規範 三-二-9-(2)，頁25-26】）</td><td>拍招牌帶</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>結構體</td><td>任何鑽孔打鑿有損結構均禁止；必要鑽孔須結構技師簽名報告＋甲方同意（【規範 三-一-10，頁21】）</td><td>—</td><td>結構技師＋甲方</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-6</span>機電交付點點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:18%"><col style="width:36%"><col style="width:22%"><col style="width:14%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範規格</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>一次側動力盤</td><td>甲方提供 <b>3∮4W 380/220V</b> 動力盤一處，內含無熔絲總開關 1 個；餐飲／獨立櫃另附 <b>ATS</b>（【規範 六-5-(1)、三-二-8-(6)，頁29、25】）</td><td>拍盤體＋銘牌，記位置（在各櫃天花板）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>允許用電量</td><td>以甲方設定為準；增加迴路／開關箱費用乙方負擔；超留設標準甲方有權否決（【規範 三-二-8-(1)，頁24】）</td><td>抄界面表用電量數值</td><td>甲方工程部＋泰咪</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>獨立電表</td><td>餐飲／部分櫃甲方於頂樓／天花設獨立電表供獨立計費（【規範 三-二-8-(1)、六-5-(2)，頁24、29】）</td><td>拍電表位置＋錶號</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>責任界面</td><td>一次側動力盤＝商場與專櫃分責界面，專櫃不可於此盤內安裝任何設備（【規範 三-二-8-(6)，頁25】）</td><td>拍盤內現況</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>電壓規格</td><td>天花／壁／地照明 220V；插座 110V（預埋式）（【規範 六-5-(1)、三-二-5-(6)，頁29、24】）</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="practice"><b>【實務・關鍵】</b>允許用電量一定要在點交當天把甲方界面表上的數字抄下來、拍下來，這是後面咖啡機／製冰機能不能全開的天花板。咖啡櫃負載大，若甲方留設量不夠，增量的迴路＋開關箱錢要乙方出，且甲方有絕對否決權——這條要立刻回報泰咪核對報價與老闆確認，別等施工到一半才發現電不夠。</div>
+
+    <h3 class="sub-title"><span class="n">2-7</span>給排水接點點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:20%"><col style="width:34%"><col style="width:20%"><col style="width:16%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範要求</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>一次側給排水定點</td><td>飲食櫃甲方提供獨立水錶（建物頂樓）＋一次側給排水配管至專櫃定點；二次側給水配管乙方自理（【規範 三-二-12-(1)，頁26】）</td><td>拍給水／排水接點位置＋管徑</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>排水幹管銜接口</td><td>汙水管排水管延續原管路出口，不可穿越櫃內樓板至下層（【規範 三-二-5-(3)，頁23】）</td><td>拍銜接口</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>一般專櫃限制</td><td>非飲食櫃禁止設供水、排水、瓦斯（【規範 三-二-12-(1)，頁26】）</td><td>—</td><td>甲方（先確認飲食櫃定位）</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>獨立水錶</td><td>錶號＋位置（頂樓）（【規範 三-二-12-(1)，頁26】）</td><td>拍錶號</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-8</span>空調／排氣點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:20%"><col style="width:34%"><col style="width:20%"><col style="width:16%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範要求</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>空調出／回風口</td><td>位置＋須標入機電／空調送審圖（【規範 四-2 機電配置圖，頁28】）</td><td>拍風口位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>室外空調主機位</td><td>額外空調由乙方自設自裝，依甲方指定位置安裝室外主機（【規範 六-5-(3)，頁30】）</td><td>拍指定位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>甲方排氣管道銜接口</td><td>廚房排油煙須自設靜電油煙處理器＋排煙馬達（風車）自行銜接甲方排氣管道；甲方不提供水洗機（【規範 六-5-(3)，頁30】）</td><td>拍排氣管道銜接口位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>新鮮風進排氣</td><td>由乙方自設自裝（【規範 六-5-(3)，頁30】）</td><td>—</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-9</span>通訊／POS 點交</h3>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:20%"><col style="width:34%"><col style="width:20%"><col style="width:16%"></colgroup>
+      <thead><tr><th></th><th>點什麼</th><th>量什麼／規範要求</th><th>拍照存證</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>POS／電話／電腦線定點</td><td>甲方拉至專櫃內統一定點，再由乙方自行配置（甲方施作者乙方負擔費用）（【規範 三-二-8-(3)、8-(8)，頁25】）</td><td>拍定點位置</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>外線申請</td><td>外線由各專櫃自行申請（中華電信）（【規範 三-二-8-(3)，頁25】）</td><td>—</td><td>乙方自辦</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>收銀機／UPS 尺寸</td><td>商場提供收銀機＋UPS，收銀台需包覆 POS、UPS、美背＋預留線材空間（【規範 三-二-8-(8)，頁25】）</td><td>拍／量收銀機 UPS 尺寸</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>UPS 插座禁用</td><td>各櫃嚴禁使用 UPS 不斷電系統插座施工，造成損失全賠（【規範 六-4-(10)，頁29】）</td><td>—</td><td>告知全體施工師傅</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 class="sub-title"><span class="n">2-10</span>咖啡櫃位特別點交項（黑沃專屬）</h3>
+    <p class="note">咖啡吧屬高負載、有給排水、可能觸發廚房／油脂規定，這區單獨拉出來點。</p>
+
+    <p class="note"><b>A．給水／排水（含油脂截留判定）</b></p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:30%"><col style="width:52%"><col style="width:15%"></colgroup>
+      <thead><tr><th></th><th>項目</th><th>說明</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>一次側給水接點管徑</td><td>是否足供咖啡機／製冰機／水槽／RO（前案報價單 B 有咖啡機、製冰機、水槽、RO ½"）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>油脂截油器是否觸發</td><td>【規範 三-二-5-(3)，頁23】規定廚房內需自設前置油脂截油器，配管由乙方施作至截油器再接甲方主排水管。咖啡吧是否被認定為「廚房」須向甲方確認（見 §0.5③）。牛奶／糖漿／奶泡排水含油脂，多數商場會要求輕食吧也設簡易油脂截留——先問甲方，別賭。</td><td>甲方（先確認廚房認定）</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>防水工程</td><td>給排水相關空間須乙方自裝防水，採 72 小時以上盛水試驗＋檢附報告，此報告視同保證金退還標準項目之一（【規範 三-二-5-(4)，頁23】）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>排水延續原出口</td><td>不可穿樓板至下層（【規範 三-二-5-(3)，頁23】）</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p class="note"><b>B．電力容量（咖啡機／冰箱／製冰機負載）</b></p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:30%"><col style="width:52%"><col style="width:15%"></colgroup>
+      <thead><tr><th></th><th>項目</th><th>說明</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>抄下甲方允許用電量</td><td>比對咖啡機（義式機常 220V 高瓦數）＋製冰機＋冰箱＋磨豆機＋烤箱同時啟動的尖峰負載（【規範 三-二-8-(1)，頁24】）</td><td>甲方工程部＋泰咪</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>插座／照明電壓</td><td>插座 110V 預埋式、照明 220V；禁止延長線／壓條延伸電源（【規範 三-二-5-(6)，頁24】）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>110V 乾式變壓器</td><td>需自備裝於天花板或甲方認可位置（【規範 三-二-8-(9)，頁25】）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>若判定為廚房</td><td>用防水型插座＋配電盤內加裝漏電跳脫裝置（【規範 三-二-8-(7)，頁25】）</td><td>甲方工程部</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>迴路分電平均</td><td>CDM／高功率燈具注意瞬間起動負載（【規範 三-二-7-(1)，頁24】）</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p class="note"><b>C．排氣需求</b></p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:30%"><col style="width:52%"><col style="width:15%"></colgroup>
+      <thead><tr><th></th><th>項目</th><th>說明</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>若有烘烤／蒸氣／明火</td><td>排煙馬達（風車）配比＋靜電油煙處理器＋銜接甲方排氣管道（【規範 六-5-(3)，頁30】）</td><td>甲方工程部＋消防設備師</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>新鮮風進排氣</td><td>自設（【規範 六-5-(3)，頁30】）</td><td>甲方工程部</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p class="note"><b>D．配管材質</b>（引用前案技術結論，兩案同一份甲方規範）</p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col class="cb-col"><col style="width:30%"><col style="width:52%"><col style="width:15%"></colgroup>
+      <thead><tr><th></th><th>項目</th><th>說明</th><th>異常找誰</th></tr></thead>
+      <tbody>
+        <tr><td class="center"><span class="cb"></span></td><td>電氣穿線管</td><td>採 PF 管（CNS 12152）或 EMT 金屬管；天花／輕隔間明管<b>禁用 CD 管</b>（電工法規要求，非加價項）</td><td>—</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>給排水管</td><td>PVC 管維持即可（給水無耐燃等級要求）</td><td>—</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>防火填塞</td><td>管線穿越防火牆／樓板之孔須做 1hr 防火時效填塞（建築技術規則§85 強制），穿越商場防火區劃牆另設防火閘門（【規範 三-二-12-(2)，頁26】）——<b>兩份報價單皆漏列，須補</b>（<span class="toTamy">轉泰咪</span>）</td><td>泰咪＋甲方</td></tr>
+        <tr><td class="center"><span class="cb"></span></td><td>耐燃單面隔間</td><td>鄰外牆／廚房防火時效牆區之水電管路，另設耐燃一級單面隔間包覆，穿越處做同時效防火填塞＋防火閘門（【規範 三-二-12-(2)，頁26】）（<span class="toTamy">轉泰咪</span>）</td><td>泰咪＋甲方</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="practice"><b>【實務】</b>咖啡吧「油脂截油器要不要做」「電夠不夠」是這案兩個最貴的變數。兩件都在點交當天問死甲方＋抄界面表數字，回報老闆與泰咪，不要等進場才發現。</div>
+  </section>
+
+  <!-- ============ 三、施工管理紅線 ============ -->
+  <section id="s3">
+    <h2 class="sec-title">三、施工管理紅線（9 段）</h2>
+    <p class="note">以下為規範第五、六條抽取之施工期間管理義務，附條號頁碼；部分段落附蘿拉法規交叉參考。</p>
+
+    <h3 class="sub-title"><span class="n">3-1</span>保證金（施工保證票）</h3>
+    <p class="cite">【規範 五-1-(3)、五-1-(4)，頁28】</p>
+    <ul>
+      <li><b>金額</b>：餐飲櫃 $100,000／櫃；零售櫃 $50,000／櫃（黑沃若定位餐飲櫃＝$100,000，須先確認櫃型定位）。</li>
+      <li><b>票據</b>：支票抬頭「昕境廣場股份有限公司」，禁止背書轉讓，僅作保證用。</li>
+      <li><b>退還</b>：完工驗收後無息退還；施工中破壞甲方場內裝修物，甲方有權自保證金扣除，廠商不得有議。</li>
+      <li><b>退還依據</b>：以審核確認之圖面內容＋機空消水電核准表為退還依據；防水 72hr 盛水試驗報告視同退還標準項目之一（【規範 三-二-5-(4)，頁23】）。</li>
+    </ul>
+    <div class="practice"><b>【實務】</b>保證票開出去前確認「禁背書轉讓」章要蓋，抬頭一字不差。退還綁「機空消水電核准表」，意思是消防／空調／水電任一項驗收沒過，錢就卡著——所以 §2-2 消防點交才要排第一。</div>
+    <div class="lawref"><b>法規補充（蘿拉）：</b>多數「淨空／防火」項同時觸發政府罰則（消防法／建築法）與甲方私規範——甲方保證票得逕自扣除、施工不符可停工，且保證金退還以「機空消水電核准表」為據，屬<b>雙重後果</b>，詳見第四節風險總表。</div>
+
+    <h3 class="sub-title"><span class="n">3-2</span>送審圖說流程與時程</h3>
+    <p class="cite">【規範 第四條＋五-1，頁27-28】</p>
+    <ul>
+      <li><b>流程</b>：先依甲方位置圖現場丈量實際尺寸→專業設計師出圖→依甲方訂定進度提交→<b>審核核可後方可進場施工</b>（【規範 四-1，頁27】）。圖與原建築圖衝突以建築圖為準（【規範 四-1-(3)，頁27】）。</li>
+      <li><b>送審內容</b>：材料樣本版 1 份（真實材料）＋以下圖樣 A3 紙本 3 份＋電子檔（PDF＋CAD）（【規範 四-2-(3)，頁27】）：平面配置圖／立面剖面圖／天花板照明設計圖／地坪設計圖／道具設備圖／機電配置圖／配水圖則／標準 LOGO 圖（AI 檔）／櫃內招牌大樣。（半統裝、統裝櫃免提供天花照明圖與地坪圖，【規範 四-2-(4)，頁27-28】）</li>
+      <li><b>AB 工程標示</b>：天花圖須以另型線／圖層標示 AB 工程，新增或變動須另附變更圖（【規範 四-2-(4)，頁28】）。</li>
+      <li><b>進場生效</b>：現場會勘點交＋完成手續後，即認定櫃位移交乙方，此日期為現場施工責任法定生效日（【規範 五-2，頁28】）。</li>
+    </ul>
+    <div class="practice"><b>【實務・時程紅線】</b>規範寫「審核核可後方可進場」但沒給明確送審天數——這是最容易卡工期的黑洞。務必當面問甲方工程部：圖審幾個工作天一輪？退補幾次？機電／消防要不要另外跑消防設備師簽證送審（那是額外 1–2 週）？把這條當開工前置時程排進計畫，別壓在進場日才送。</div>
+    <div class="lawref"><b>法規補充（蘿拉）：</b>本案是否須申請室內裝修審查許可＝<b>是（有條件）</b>，因涉及天花板裝修／內部牆面裝修／分間牆變更，落入建築法§77-2 應申請範圍，須先送審核准後始得進場施工。法定申請人為起造人／所有權人／使用人（室裝辦法§22），非施工廠商本身；如菓係以室內裝修業＋專業技術人員身分具名施工，須書面確認由甲方或承租之黑沃擔任申請人。本櫃位是否納入商場整體許可傘下或須單獨送審，<b>仍待確認</b>（見第五節）。</div>
+
+    <h3 class="sub-title"><span class="n">3-3</span>施工時間限制</h3>
+    <p class="cite">【規範 六-2、六-4-(12)，頁28-29】</p>
+    <ul>
+      <li>影響營業之噪音或氣味，甲方有權要求暫停施工或調整施作時間，乙方不得異議、不得要求加價補償（【規範 六-2，頁28-29】）。</li>
+      <li><b>嚴禁於賣場營業時間施作易造成噪音之工程</b>（【規範 六-4-(12)，頁29】）。</li>
+    </ul>
+    <div class="practice"><b>【實務・成本紅線】</b>「營業時間禁噪音工程」翻成白話＝打石、切割、震動、粉塵作業幾乎只能做夜間（商場打烊後到隔天開店前，常是 22:00–06:00）。夜間工資是日間的 1.3–1.8 倍，且工時被壓縮。這條直接影響報價與工期，泰咪估價、老闆排程一定要把夜間班算進去。規範沒寫夜間工資由誰吸收——當然是乙方，先算進成本。</div>
+
+    <h3 class="sub-title"><span class="n">3-4</span>施工證／人員管理</h3>
+    <p class="cite">【規範 六-3、六-4，頁29】</p>
+    <ul>
+      <li>至少一人現場監造負責，隨時備查協調（【規範 六-3-(1)，頁29】）。</li>
+      <li>接受甲方人員管理，不符規定經指正未改善者<b>暫不予供電</b>（【規範 六-3-(2)，頁29】）。</li>
+      <li>工地須保存一份已核准圖樣隨時備查（【規範 六-4-(14)，頁29】）。</li>
+      <li>施工人員須符合勞工安全衛生規則環境；人員傷亡由乙方負責撫卹賠償，與甲方無涉（【規範 六-3-(3)，頁29】）。</li>
+      <li>高處作業（2m 以上）須用安全帶＋安全網（【規範 六-4-(6)，頁29】）；無執照嚴禁操作機具（吊車等）（【規範 六-4-(5)，頁29】）。</li>
+      <li>場內禁賭博、嬉戲、飲酒、含酒精飲品；施工櫃內及場內禁菸、禁檳榔（吸菸限指定場所）（【規範 六-4-(2)(4)，頁29】）。</li>
+    </ul>
+    <div class="practice"><b>【實務】</b>「暫不予供電」是甲方最有效的處罰手段——斷電你全櫃停工。所以現場監工人員要盯著師傅別踩規定（禁菸、料件亂堆、噪音）。施工證通常要押證件換證進場，人員名冊先造好給甲方。</div>
+
+    <h3 class="sub-title"><span class="n">3-5</span>動火作業</h3>
+    <p class="cite">【規範 六-4-(11)，頁29】</p>
+    <ul>
+      <li>焊接等易產生火花之工作，應移開可燃物，並以符合勞安標準之防火毯等設備做好防範。</li>
+    </ul>
+    <div class="practice"><b>【實務】</b>商場動火幾乎都要申請動火許可證、配滅火器＋防火毯＋監火人，甚至要暫時隔離該區偵煙器（會勘後由甲方消防人員處理，不可自行拆）。規範只寫「防火毯」是最低要求——實際進商場動火先問工程部有沒有動火申請單制度，沒申請就燒焊，觸發警報全館疏散，賠不完。</div>
+    <div class="lawref"><b>法規補充（蘿拉）：</b>消防法§13：一定規模以上建築物應遴用防火管理人，施工期間另訂施工中消防防護計畫，多由甲方統籌、乙方配合；動火作業請依此併入甲方防火管理流程申請，不可自行處理消防設備。</div>
+
+    <h3 class="sub-title"><span class="n">3-6</span>垃圾清運／料件堆放</h3>
+    <p class="cite">【規範 六-4-(8)(9)，頁29】</p>
+    <ul>
+      <li>叫料送貨須報知運送路線、派員點收、堆放指定區域，不可任送貨人四處遊蕩或隨意堆丟（【規範 六-4-(8)，頁29】）。</li>
+      <li>貨品材料在指定地點堆放，禁止放公共走道及公共區域（【規範 六-4-(9)，頁29】）。</li>
+    </ul>
+    <div class="gap"><b>【實務・規範缺口】</b>規範沒有明訂垃圾清運方式與費用歸屬——這是常見糾紛點。商場通常規定：裝修廢棄物乙方自行清運出場，不可丟商場垃圾間；大型廢料要走貨梯＋指定時段，可能收清運費或押金。進場前問死：垃圾誰運、丟哪、要不要押金、貨梯時段。</div>
+
+    <h3 class="sub-title"><span class="n">3-7</span>公共區保護</h3>
+    <p class="cite">【規範 六-4-(1)(9)、五-1-(3)，頁28-29】</p>
+    <ul>
+      <li>工程以外現場、工作範圍以外場所勿進入（【規範 六-4-(1)，頁29】）。</li>
+      <li>施工中破壞甲方場內裝修物，甲方自保證金扣除（【規範 五-1-(3)，頁28】）。</li>
+      <li>施工圍籬一律強制白色美耐板（【規範 三-二-4-(6)，頁23】）。</li>
+    </ul>
+    <div class="gap"><b>【實務・規範缺口】</b>規範對「公共區地坪／牆面／電扶梯／柱面的保護材規格」著墨少，只硬性要求圍籬用白色美耐板。實務上進場第一件事就是鋪保護：地坪瓦楞板＋夾板、柱角護角、電梯貨梯內壁保護毯，並請甲方工程部驗收保護後才准動工。保護沒做好刮傷公共區，從保證金扣。</div>
+
+    <h3 class="sub-title"><span class="n">3-8</span>罰則／賠償條款</h3>
+    <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>情形</th><th>後果</th><th>條號頁碼</th></tr></thead>
+      <tbody>
+        <tr><td>破壞甲方場內裝修物</td><td>自保證金扣除，廠商不得有議</td><td>五-1-(3)，頁28</td></tr>
+        <tr><td>違反政府機關（如財政部）規定致甲方遭罰</td><td>乙方賠償甲方所有損失（含罰鍰）</td><td>三-二-3-(3)，頁22</td></tr>
+        <tr><td>天花上層設備未依指定色號噴漆</td><td>甲方統一處理，費用乙方負擔</td><td>三-二-3-(4)，頁23</td></tr>
+        <tr><td>不符規定經指正未改善</td><td>暫不予供電，損失乙方負責</td><td>六-3-(2)，頁29</td></tr>
+        <tr><td>使用 UPS 不斷電系統插座致損失</td><td>施工及設櫃廠商全權賠償</td><td>六-4-(10)，頁29</td></tr>
+        <tr><td>施工人員傷亡災害</td><td>乙方負責撫卹與賠償，與甲方無涉</td><td>六-3-(3)，頁29</td></tr>
+        <tr><td>結構鑽孔打鑿未依規定</td><td>罰責、修改損失乙方自負</td><td>三-一-10、三-一，頁21、20</td></tr>
+        <tr><td>進度落後</td><td>不視為甲方同意順延，仍受合約工期約束</td><td>六-1，頁28</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="lawref"><b>法規補充（蘿拉）：</b>以上多數情形在政府法規面另有獨立罰則（例如結構破壞牽動建築法§77-2①、無證施工牽動§77-2③、§95-1），與甲方私規範罰則<b>並存不互斥</b>。完整風險等級與法源對照，見第四節「風險評估總表」。</div>
+
+    <h3 class="sub-title"><span class="n">3-9</span>完工驗收程序</h3>
+    <p class="cite">【規範 五-1-(4)、三-二-5-(4)，頁28、23】</p>
+    <ul>
+      <li>退還／驗收依據＝審核確認之圖面內容＋機空消水電核准表。</li>
+      <li>給排水空間須繳防水 72hr 盛水試驗報告（視同退還標準項目）。</li>
+      <li>建材須備齊送審證明：室內裝修業登記證、營利事業登記證、專業技術人員登記證、材料出廠證明、內政部／經濟部檢驗合格證明正本、進口報單、綠建材／環保標章證書（【規範 三-二-6-(2)，頁24】）。</li>
+      <li><b>綠建材佔比 45%</b>：天地壁裝修表面積總合 45% 以上須為綠建材（【規範 三-二-6-(1)，頁24】）——<b>選材階段就要卡</b>：送審建材表逐項標綠建材標章並自算天地壁表面積佔比，勿等送審／驗收才發現不足。</li>
+    </ul>
+    <div class="gap"><b>【實務・規範缺口】</b>規範沒有寫明確的「驗收流程與天數、複驗機制、保固期」。實務上要問甲方：驗收怎麼約、幾天內、缺失改善複驗幾次、保證金多久退。保固期（通常 1 年）也要跟甲方合約對齊，這塊請蘿拉看合約主文。</div>
+    <div class="lawref"><b>法規補充（蘿拉）：</b>建築物室內裝修管理辦法§32：室內裝修工程完竣後，應由起造人／所有權人／使用人會同室內裝修從業者向原審查機關（構）申請竣工查驗合格，並核發室內裝修合格證明；§31：施工與核定圖說不符時，主管機關以書面通知停工或修改。<b>無合格證明恐影響甲方保證金退還與後續營業</b>，完工務必排定竣工查驗，變更設計先辦理變更審核，勿先做後補。</div>
+  </section>
+
+  <!-- ============ 四、風險評估總表 ============ -->
+  <section id="s4">
+    <h2 class="sec-title">四、風險評估總表</h2>
+    <p class="note">合併蘿拉「違反後果與風險等級總表」與艾莉兒「罰則／賠償條款」，去重後依風險等級高→低排序。等級同時反映政府罰則與甲方私規範雙重後果。</p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col style="width:20%"><col style="width:8%"><col style="width:22%"><col style="width:24%"><col style="width:26%"></colgroup>
+      <thead><tr><th>風險項</th><th>等級</th><th>法源或出處</th><th>後果</th><th>對策</th></tr></thead>
+      <tbody>
+        <tr class="risk-h"><td>未申請室內裝修審查即施工</td><td><span class="risk h">高</span></td><td>建築法§77-2、§95-1①；室裝辦法§3</td><td>罰 6～30 萬＋限期改善／補辦，連續處罰，必要時強制拆除</td><td>進場前確認本櫃位是納入商場整體許可或需單獨送審；圖說先取得核准再進場</td></tr>
+        <tr class="risk-h"><td>無證施工／誤用開箱子具名</td><td><span class="risk h">高</span></td><td>建築法§77-2③、§95-1②；室裝辦法§10、§36</td><td>罰鍰＋勒令停業；借牌廢止登記證</td><td>送審圖室內裝修業欄、施工切結、竣工查驗一律用「如菓」名義與如菓專業技術人員，絕不用開箱子</td></tr>
+        <tr class="risk-h"><td>消防設備移設未經消防設備師檢討送審</td><td><span class="risk h">高</span></td><td>消防法§7、§10、§38</td><td>未經消防設備師擅自設計罰 3～15 萬按次＋圖審退件停工</td><td>只要動到撒水頭／排煙閘門／偵煙器位置，一律先發包消防設備師檢討＋簽證，費用列入報價</td></tr>
+        <tr class="risk-h"><td>防煙垂壁未留 50cm／擅改</td><td><span class="risk h">高</span></td><td>建築技術規則施工編§100、§101；消防設備設置標準§188</td><td>排煙失效、消防查驗不過、甲方扣保證金</td><td>天花放樣前先套繪既有防煙垂壁位置，如須移位先交消防設備師檢討再送審</td></tr>
+        <tr class="risk-h"><td>撒水頭迴水板淨空不足</td><td><span class="risk h">高</span></td><td>消防設備設置標準§47</td><td>滅火失效、消防查驗必退、火損責任</td><td>天花燈具道具佈點先避開撒水頭淨空球區（45cm／30cm）</td></tr>
+        <tr class="risk-h"><td>防火門／緊急進口／防火鐵捲門／緩降機淨空受阻</td><td><span class="risk h">高</span></td><td>建築技術規則施工編§75、§76、§79-2、§108、§109；消防設備設置標準§163-167</td><td>妨害防火避難設施，消防法§37（2～30 萬＋停業 30 日）、甲方退場</td><td>點交時逐一標記位置，維持法定淨空與逃生動線，不設固定櫃／道具</td></tr>
+        <tr class="risk-h"><td>結構破壞（鑽孔打鑿未依規定）</td><td><span class="risk h">高</span></td><td>建築法§77-2①；【規範 三-一-10，頁21】</td><td>結構安全違規＋甲方扣保證金＋修復賠償，罰責修改損失乙方自負</td><td>施工圖標示所有須鑽孔／植筋位置事前送審，須結構技師簽名鑑定報告＋甲方同意，承重牆一律不動</td></tr>
+        <tr class="risk-h"><td>營業前消防查驗未過</td><td><span class="risk h">高</span></td><td>消防法§6、§7、§10</td><td>無法取得消防查驗合格→不得營業</td><td>凡動到消防設備即納消防審查；營業前確認查驗合格</td></tr>
+        <tr class="risk-h"><td>明火／瓦斯廚房未做防火區劃／滅火／遮斷閥</td><td><span class="risk h">高（有明火時）</span></td><td>建築技術規則施工編§86-4、§85；設備編§80；【規範 三-二-11、12，頁26】</td><td>公共危險＋消防法§37＋甲方退場</td><td>點交前向黑沃確認吧檯設備清單（是否瓦斯機／現場烘豆），若有立即納入防火區劃／雙遮斷閥／滅火設備設計送審</td></tr>
+        <tr class="risk-h"><td>違反政府機關規定致甲方受罰</td><td><span class="risk h">高</span></td><td>【規範 三-二-3-(3)，頁22】</td><td>乙方賠償甲方所有損失（含罰鍰），無上限</td><td>所有送審文件、防火建材證明、綠建材標章備齊，不可抄捷徑</td></tr>
+        <tr class="risk-h"><td>施工人員傷亡災害</td><td><span class="risk h">高</span></td><td>【規範 六-3-(3)，頁29】</td><td>乙方負責撫卹賠償，與甲方無涉</td><td>落實勞安環境、高處作業安全帶安全網、無執照禁操作機具</td></tr>
+        <tr><td>消防栓淨空／偵煙器復裝</td><td><span class="risk mh">中～高</span></td><td>消防設備設置標準§34、§19；消防法§6</td><td>消防查驗不過、甲方指正暫停供電</td><td>道具佈點避開消防栓前淨空；偵煙器拆前拍照數量清點，裝回後對照</td></tr>
+        <tr><td>竣工查驗未辦／施工與圖不符</td><td><span class="risk mh">中～高</span></td><td>室裝辦法§31、§32</td><td>通知停工修改、無合格證明、保證金不退</td><td>完工排定竣工查驗；施工中變更設計先辦理變更審核，勿先做後補</td></tr>
+        <tr><td>破壞甲方場內裝修物</td><td><span class="risk mh">中～高</span></td><td>【規範 五-1-(3)，頁28】</td><td>甲方自保證金扣除，廠商不得有議</td><td>進場鋪保護材（地坪／柱角／電梯貨梯），請甲方工程部驗收簽認後才動工</td></tr>
+        <tr><td>電力超載／導管誤用 CD 管</td><td><span class="risk m">中</span></td><td>用戶用電設備裝置規則</td><td>甲方否決斷電、圖審退件、火災風險</td><td>用電量計算表先送甲方核定；明管一律標明 PF／EMT，勿用 CD 管</td></tr>
+        <tr><td>排油煙／給排水／油脂截油器／防水不合規</td><td><span class="risk m">中</span></td><td>建築設備編§29、§29-1、§92；空污法／下水道法（條號待查）</td><td>環保罰鍰、漏水賠償、保證金扣款</td><td>排水走原出口不穿樓板；油脂截油器＋防水 72hr 盛水試驗報告列點交／退保證金必備文件</td></tr>
+        <tr><td>建材耐燃／防焰／綠建材證明不齊</td><td><span class="risk m">中</span></td><td>建築技術規則施工編§88、§1；消防法§11</td><td>圖審退件、保證金扣款</td><td>材料進場前備齊出廠證明＋檢驗合格＋防焰標示＋綠建材標章，對應送審圖建材表</td></tr>
+        <tr><td>申請人身分未釐清</td><td><span class="risk m">中</span></td><td>室裝辦法§22</td><td>送審受理疑義、權責不清</td><td>書面確認由甲方（或承租之黑沃）擔任申請人，如菓擔任室內裝修業／專業技術人員</td></tr>
+        <tr><td>不符規定經指正未改善→暫不予供電</td><td><span class="risk m">中</span></td><td>【規範 六-3-(2)，頁29】</td><td>全櫃停工，損失乙方負責</td><td>現場監工盯緊師傅（禁菸／料件堆放／噪音），經指正立即改善</td></tr>
+        <tr><td>UPS 不斷電插座誤用致損失</td><td><span class="risk m">中</span></td><td>【規範 六-4-(10)，頁29】</td><td>施工廠商全權賠償</td><td>告知全體師傅嚴禁使用 UPS 插座施工</td></tr>
+        <tr><td>進度落後不視為甲方同意順延</td><td><span class="risk m">中</span></td><td>【規範 六-1，頁28】</td><td>仍受合約工期約束，不得要求順延</td><td>送審時程／夜間工班及早排入計畫，勿壓在進場日才送審</td></tr>
+        <tr><td>招牌不符規定</td><td><span class="risk lm">低～中</span></td><td>招牌廣告及樹立廣告管理辦法</td><td>甲方要求拆改</td><td>招牌設計先送甲方審圖同意，材料具防火標準</td></tr>
+        <tr><td>天花上層設備未依色號噴漆</td><td><span class="risk l">低</span></td><td>【規範 三-二-3-(4)，頁23】</td><td>甲方統一處理，費用乙方負擔</td><td>點交時抄下甲方指定色號，依色號噴漆處理</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- ============ 五、需確認與待老闆拍板清單 ============ -->
+  <section id="s5">
+    <h2 class="sec-title">五、需確認與待老闆拍板清單</h2>
+    <p class="note">合併艾莉兒與蘿拉兩份素材之待確認清單，去重後統一編號；<span class="toTamy">轉泰咪</span> 標籤標示需連動追加報價之項目。「防火材料證明／綠建材45%／防焰標示法規認定」原為艾莉兒請蘿拉確認之項目，<b>已由蘿拉法規分析（第六節已查證清單）確認條號，不再列入待查</b>。</p>
+    <div class="tbl-wrap">
+    <table class="wide">
+      <colgroup><col style="width:4%"><col style="width:28%"><col style="width:16%"><col style="width:34%"><col style="width:18%"></colgroup>
+      <thead><tr><th>#</th><th>待確認事項</th><th>找誰</th><th>影響</th><th>備註</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><b>【最關鍵】</b>咖啡吧是否構成「廚房」＋吧檯設備是否含明火／瓦斯／現場烘豆機</td><td>先向黑沃取得設備清單，再問甲方</td><td>決定油脂截油器／廚房防水插座＋漏電／1hr防火區劃／耐燃一級天花／瓦斯雙遮斷閥／簡易滅火設備／排油煙管制是否觸發（見 §0.5③）</td><td>—</td></tr>
+        <tr><td>2</td><td>黑沃櫃型（統裝／半統裝／自設自裝）</td><td>甲方工程部（書面）</td><td>天花地坪壁面道具全部歸屬（見 §0.5①）</td><td>—</td></tr>
+        <tr><td>3</td><td>是否餐飲／飲食櫃定位</td><td>甲方界面表</td><td>保證金 $100k／$50k、給排水權限、ATS（見 §0.5②）</td><td>—</td></tr>
+        <tr><td>4</td><td>圖審天數／退補次數／是否需消防設備師另簽送審</td><td>甲方工程部</td><td>開工前置時程，最易卡工期</td><td>—</td></tr>
+        <tr><td>5</td><td>允許用電量數字</td><td>甲方界面表</td><td>咖啡機／製冰機能否全開、增量費用；務必當天抄下並拍照</td><td>—</td></tr>
+        <tr><td>6</td><td>垃圾清運方式／費用／貨梯時段</td><td>甲方工程部</td><td>清運成本、工期</td><td>—</td></tr>
+        <tr><td>7</td><td>動火許可制度</td><td>甲方工程部</td><td>焊接作業能否進行、偵煙器暫時隔離程序</td><td>—</td></tr>
+        <tr><td>8</td><td>驗收流程／複驗次數／保固期，及合約主文罰則條款</td><td>蘿拉（合約主文）＋甲方</td><td>保證金退還、後續保固責任；規範本身未寫明，須另查合約主文</td><td>—</td></tr>
+        <tr><td>9</td><td>本櫃位送審主體與傘下關係（由甲方商場整體許可涵蓋，或本櫃位單獨送審；申請人甲方／黑沃、如菓具名室內裝修業）</td><td>甲方</td><td>送審受理方式與權責</td><td>—</td></tr>
+        <tr><td>10</td><td>供公眾使用建築物範圍公告現行版本／字號核對（現查得台內營字第 0990801045 號，99 年修正）</td><td>承辦建築師</td><td>確保送審依據為現行有效版本</td><td>—</td></tr>
+        <tr><td>11</td><td>廚房排油煙罩簡易自動滅火設備、餐飲油煙、下水道排水確切條號</td><td>消防設備師＋承辦建築師</td><td>依現場設備與當地縣市規定核定，本分析未憑印象寫死條號</td><td>—</td></tr>
+        <tr><td>12</td><td>昕境廣場所在縣市之地方室內裝修審查作業規範</td><td>需先確認基地縣市後補查</td><td>送審份數／簽證／消防會審流程依地方而異</td><td>—</td></tr>
+        <tr><td>13</td><td>防火填塞＋耐燃一級單面隔間包覆追加報價</td><td>泰咪</td><td>前案兩份報價單皆漏列，須補列</td><td><span class="toTamy">轉泰咪</span></td></tr>
+        <tr><td>14</td><td>夜間施工工資（1.3～1.8 倍）是否已納入報價與工期</td><td>泰咪</td><td>商場禁噪音工程僅能夜間施作，此為商場櫃最易報漏的成本</td><td><span class="toTamy">轉泰咪</span></td></tr>
+        <tr><td>15</td><td>若允許用電量不足，須增設迴路／開關箱費用</td><td>泰咪</td><td>費用由乙方負擔，需視 #5 電量數字確認後估算</td><td><span class="toTamy">轉泰咪・視結果而定</span></td></tr>
+        <tr><td>16</td><td>若判定為廚房，油脂截油器施作＋廚房防水插座＋漏電斷路器</td><td>泰咪</td><td>需視 #1 廚房認定結果後估算</td><td><span class="toTamy">轉泰咪・視結果而定</span></td></tr>
+        <tr><td>17</td><td>消防設備（撒水頭／排煙閘門）移位之消防設備師檢討費用</td><td>泰咪</td><td>費用由乙方負擔，僅在確定要移位時發生</td><td><span class="toTamy">轉泰咪・視結果而定</span></td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- ============ 六、附錄：法源清單 ============ -->
+  <section id="s6">
+    <h2 class="sec-title">六、附錄：法源清單</h2>
+    <p class="note">分「已查證」「需查證」兩類；<b>「需查證」為蘿拉分析原文標註，原樣保留，不得視為已確定條號。</b></p>
+    <div class="grid2">
+      <div class="src-box ok">
+        <h4>已查證</h4>
+        <ul>
+          <li><b>甲方私規範原文</b>（非政府法規，本案合約義務直接依據）：昕境廣場「專櫃內裝及設備設計施工管理規範」全文，頁 20–30（原文第 1–11 頁）。本文件所有規範條號均已逐條與此原文核對，<span class="src">核對：賈維斯，2026-07-08，無衝突</span></li>
+          <li>建築法 §5、§77、§77-2、§95-1 <span class="src">全國法規資料庫＋既有法規庫，2026-07-08</span></li>
+          <li>建築技術規則建築設計施工編 §1、§75、§76、§79-2、§83、§86、§88、§100、§101、§108、§109 <span class="src">taiwan-building-code MCP，2026-07-08</span></li>
+          <li>建築技術規則建築設備編 §29、§29-1、§80、§92 <span class="src">既有法規庫</span></li>
+          <li>建築物室內裝修管理辦法 §3、§10、§22、§31、§32、§36 <span class="src">全國法規資料庫（pcode D0070148），2026-07-08</span></li>
+          <li>消防法 §6、§7、§9、§10、§11、§11-1、§13、§37、§38 <span class="src">既有法規庫（2026-05-15 查，law.nfa.gov.tw）</span></li>
+          <li>各類場所消防安全設備設置標準 §19、§34、§47、§188 <span class="src">ArkiTeki／既有法規庫</span></li>
+          <li>各類場所消防安全設備設置標準 §163-167（避難器具，<b>確切適用條款依現場避難器具種類，建議以消防設備師確認</b>） <span class="src">ArkiTeki，2026-07-08</span></li>
+          <li>用戶用電設備裝置規則（原「屋內線路裝置規則」） <span class="src">前案《黑沃咖啡桃園喜徠登_水電配管耐燃檢討》既有成果沿用</span></li>
+          <li>內政部「供公眾使用建築物之範圍」公告（台內營字第 0990801045 號，99-03-03 修正） <span class="src">ArkiTeki，2026-07-08——⚠️建議送審前向承辦建築師再核對現行版本，同時列入需查證欄</span></li>
+        </ul>
+      </div>
+      <div class="src-box chk">
+        <h4>需查證</h4>
+        <ul>
+          <li>廚房排油煙罩簡易自動滅火設備確切條號——各類場所消防安全設備設置標準，<b>建議由消防設備師依現場設備核定</b></li>
+          <li>餐飲油煙異味排放確切條號——空氣污染防制法，<b>依地方環保局及是否含現場烘豆而定</b></li>
+          <li>餐飲廢水排放確切條號——下水道法／地方下水道管理自治條例，<b>依當地下水道系統而定</b></li>
+          <li>供公眾使用建築物範圍公告現行版本——現查得台內營字第 0990801045 號（99 年修正），<b>送審前建議由承辦建築師核對現行有效版本</b></li>
+          <li>昕境廣場所在縣市之地方室內裝修審查作業規範——<b>需先確認本案基地縣市後補查</b>（送審份數、簽證、消防會審流程依地方而異，不可套用他縣市）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>核對紀錄：</b>本文件由賈維斯整合艾莉兒（工法建材分析）與蘿拉（法規風險分析）兩份素材產出，並將兩份素材中引用之昕境廣場規範條號、頁碼、關鍵尺寸與金額，逐一與規範全文原件核對。核對範圍涵蓋：灑水頭淨空 45cm／30cm、消防栓淨空 1500mm／1200mm、防火鐵捲門 20cm／100mm、緩降機淨空 1000×1000mm／800mm、防煙垂壁 50cm、保證金 $100,000／$50,000、動力盤 3∮4W 380/220V、插座 110V、瓦斯廚房門檻 10 坪、綠建材佔比 45%、招牌字高 60cm／30cm 等安全與金額關鍵條款。核對結果：<b>與原文一致，未發現素材與原文衝突</b>；素材原有之「需查證」標註已如實保留於第六節，不做無依據之確認。行政準備清單第五項「保險」（施工切結書與工地保險切結書）取自規範原文【五-1-(2)，頁28】，補充於兩份素材未明列之處。</p>
+    <p>本文件僅供如菓內部工程統籌使用；規範效力、合約主文條款、防火材料證明最終認定，仍請以正式送審核准文件與承辦建築師／消防設備師確認為準。</p>
+  </footer>
+
+</div>
+</body>
+</html>
